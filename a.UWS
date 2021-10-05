@@ -1,0 +1,29 @@
+//DIM array[] = 1, 7, 3, 12, 8, 3
+//DIM a ="hogehoge"
+//PRINT array
+//a = "fugafuga"
+//array = 2,3
+//PRINT a
+//FOR i = 0 TO (LENGTH(array) - 1)
+// PRINT array[i]
+//NEXT
+
+SAMPLE(3, "a", "i")
+
+FUNCTION SAMPLE(s,p1=NULL,p2=NULL,p3=NULL)
+    DIM params[] = p1,p2,p3
+	FOR i = 0 TO (LENGTH(params) - 1)
+        IF params[i] = NULL THEN
+		    CONTINUE
+        ENDIF
+        PRINT params[i]
+	NEXT
+	SLEEP(s)
+	FOR i = (LENGTH(params) - 1) TO 0 STEP -1
+        IF params[i] = NULL THEN
+		    CONTINUE
+        ENDIF
+		PRINT params[i]
+	NEXT
+	RESULT = ""
+FEND

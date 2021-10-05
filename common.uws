@@ -1,0 +1,35 @@
+CLASS COMMON
+
+FUNCTION ACTIVEFF14()
+id = GETID("FINAL FANTASY XIV")
+CTRLWIN(id, ACTIVATE)
+RESULT=""
+FEND
+
+// FUNCTION PLAY(key,gap,ms)
+// 	KBD(gap,DOWN)
+// 	KBD(key,DOWN,10)
+// 	KBD(key,UP,ms)
+// 	KBD(gap,UP)
+// 	RESULT = ""
+// FEND
+
+FUNCTION PLAY(s,p1=NULL,p2=NULL,p3=NULL)
+	DIM params[] = p1,p2,p3
+	FOR i = 0 TO (LENGTH(params) - 1)
+        IF params[i] = NULL THEN
+		    CONTINUE
+        ENDIF
+		KBD(params[i],DOWN)
+	NEXT
+	SLEEP(s)
+	FOR i = (LENGTH(params) - 1) TO 0 STEP -1
+        IF params[i] = NULL THEN
+		    CONTINUE
+        ENDIF
+		KBD(params[i],UP)
+	NEXT
+	RESULT = ""
+FEND
+
+ENDCLASS

@@ -1,0 +1,38 @@
+
+DIM t = 0.250
+
+COMMON.PLAY(t, do)			//do,nil,t)
+COMMON.PLAY(t, re)			//re,nil,t)
+COMMON.PLAY(t, mi)			//mi,nil,t)
+COMMON.PLAY(t, sol)			//sol,nil,t)
+COMMON.PLAY(t, h_do)		//do,ctrl,t)
+COMMON.PLAY(t, h_re)		//re,ctrl,t)
+COMMON.PLAY(t, h_mi)		//mi,ctrl,t)
+COMMON.PLAY(t, h_sol)		//sol,ctrl,t)
+
+COMMON.PLAY(t, h_h_do)		//_ssdo,ctrl,t)
+COMMON.PLAY(t, h_sol)		// sol,ctrl,t)
+COMMON.PLAY(t, h_mi)		//mi,ctrl,t)
+COMMON.PLAY(t, h_re)		//re,ctrl,t)
+COMMON.PLAY(t, h_do)		//do,ctrl,t)
+COMMON.PLAY(t, sol)			//sol,nil,t)
+COMMON.PLAY(t, mi)			//mi,nil,t)
+COMMON.PLAY(t, re)			//re,nil,t)
+
+COMMON.PLAY(t, l_ra)		//ra,shift,t)
+COMMON.PLAY(t, l_si)		//si,shift,t)
+COMMON.PLAY(t, do)			//do,nil,t)
+COMMON.PLAY(t, mi)			//mi,nil,t)
+COMMON.PLAY(t, ra)			//ra,nil,t)
+COMMON.PLAY(t, si)			//si,nil,t)
+COMMON.PLAY(t, h_do)		//do,ctrl,t)
+COMMON.PLAY(t, h_mi)		//mi,ctrl,t)
+
+COMMON.PLAY(t, h_ra)		//ra,ctrl,t)
+COMMON.PLAY(t, h_mi)		//mi,ctrl,t)
+COMMON.PLAY(t, h_do)		//do,ctrl,t)
+COMMON.PLAY(t, si)			//si,nil,t)
+COMMON.PLAY(t, ra)			//ra,nil,t)
+COMMON.PLAY(t, mi)			//mi,nil,t)
+COMMON.PLAY(t, do)			//do,nil,t)
+COMMON.PLAY(t, l_si)		//si,shift,t)

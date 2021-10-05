@@ -1,0 +1,97 @@
+// https://www.youtube.com/watch?v=wjTZmTrphRs&ab_channel=%E3%82%88%E3%81%86%E3%81%95%E3%81%84
+
+DIM t = 0.250
+
+COMMON.PLAY(t, sol)         //sol,nil,t)
+FOR count=1 TO 2
+COMMON.PLAY(t*1.5, h_do)    //do,ctrl,t*1.5)
+COMMON.PLAY(t/2, sol)       //sol,nil,t/2)
+COMMON.PLAY(t, h_do)        //do,ctrl,t)
+COMMON.PLAY(t*2, h_re)      //re,ctrl,t*2)
+COMMON.PLAY(t, sol)         //sol,nil,t)
+COMMON.PLAY(t*1.5, h_mi)    //mi,ctrl,t*1.5)
+COMMON.PLAY(t/2, h_fa)      //fa,ctrl,t/2)
+COMMON.PLAY(t, h_sol)       //sol,ctrl,t)
+COMMON.PLAY(t*2, h_sol)     //sol,ctrl,t*2)
+SLEEP(t)
+COMMON.PLAY(t*2,h_fa)       //fa,ctrl,t*2)
+COMMON.PLAY(t, h_fa)        //fa,ctrl,t)
+COMMON.PLAY(t*1.5, h_fa)    //fa,ctrl,t*1.5)
+
+COMMON.PLAY(t/2, h_mi)      //mi,ctrl,t/2)
+COMMON.PLAY(t, h_re)        //re,ctrl,t)
+
+COMMON.PLAY(t*2, h_do)      //do,ctrl,t*2)
+COMMON.PLAY(t, h_mi)        //mi,ctrl,t)
+
+IF count = 1 THEN
+COMMON.PLAY(t*2,h_do)       //do,ctrl,t*2)
+COMMON.PLAY(t, sol)         //sol,nil,t)
+ENDIF
+NEXT
+
+COMMON.PLAY(t*2,h_do)       //do,ctrl,t*2)
+COMMON.PLAY(t, h_do)        //do,ctrl,t)
+COMMON.PLAY(t*2, h_ra)      //ra,ctrl,t*2)
+COMMON.PLAY(t, h_ra)        //ra,ctrl,t)
+COMMON.PLAY(t*1.5, h_ra)    //ra,ctrl,t*1.5)
+COMMON.PLAY(t/2, h_sol)     //sol,ctrl,t/2)
+COMMON.PLAY(t, h_fa)        //fa,ctrl,t)
+COMMON.PLAY(t*1.5, h_sol)   //sol,ctrl,t*1.5)
+COMMON.PLAY(t/2, h_do)      //do,ctrl,t/2)
+COMMON.PLAY(t, h_do)        //do,ctrl,t)
+// 一行目終わり
+
+COMMON.PLAY(t*2, h_do)      //do,ctrl,t*2)
+COMMON.PLAY(t, h_do)        //do,ctrl,t)
+COMMON.PLAY(t*2,h_ra)       //ra,ctrl,t*2)
+COMMON.PLAY(t,h_ra)         //ra,ctrl,t)
+COMMON.PLAY(t*1.5,h_ra)     //ra,ctrl,t*1.5)
+COMMON.PLAY(t/2,h_sol)      //sol,ctrl,t/2)
+COMMON.PLAY(t,h_fa)         //fa,ctrl,t)
+COMMON.PLAY(t*(3+1), h_sol) //sol,ctrl,t*(3+1))
+SLEEP(t)
+
+COMMON.PLAY(t*1.5, h_mi)    //mi,ctrl,t*1.5)
+COMMON.PLAY(t/2, h_mi)      //mi,ctrl,t/2)
+COMMON.PLAY(t, h_mi)        //mi,ctrl,t)
+COMMON.PLAY(t, h_fa)        //fa,ctrl,t)
+COMMON.PLAY(t, h_mi)        //mi,ctrl,t)
+COMMON.PLAY(t, h_re)        //re,ctrl,t)
+COMMON.PLAY(t*2, h_do)      //do,ctrl,t*2)
+COMMON.PLAY(t, h_mi)        //mi,ctrl,t)
+
+COMMON.PLAY(t*2, ra)        //ra,nil,t*2)
+COMMON.PLAY(t, ra)          //ra,nil,t)
+COMMON.PLAY(t*1.5, h_re)    //re,ctrl,t*1.5)
+COMMON.PLAY(t/2, h_re)      //re,ctrl,t/2)
+COMMON.PLAY(t, h_re)        //re,ctrl,t)
+COMMON.PLAY(t, h_re)        //re,ctrl,t)
+COMMON.PLAY(t, h_sh_do)     //sdo,ctrl,t)
+COMMON.PLAY(t, h_re)        //re,ctrl,t)
+COMMON.PLAY(t*(3+1), h_sol) //sol,ctrl,t*(3+1))
+SLEEP(t)
+COMMON.PLAY(t, sol)         //sol,nil,t)
+// 2行目終わり
+
+COMMON.PLAY(t*1.5, h_do)    //do,ctrl,t*1.5)
+COMMON.PLAY(t/2, sol)       //sol,nil,t/2)
+COMMON.PLAY(t, h_do)        //do,ctrl,t)
+COMMON.PLAY(t*2,h_re)       //re,ctrl,t*2)
+COMMON.PLAY(t,sol)          //sol,nil,t)
+COMMON.PLAY(t*1.5,h_mi)     //mi,ctrl,t*1.5)
+
+COMMON.PLAY(t/2, h_fa)      //fa,ctrl,t/2)
+COMMON.PLAY(t, h_sol)       //sol,ctrl,t)
+COMMON.PLAY(t*2, h_sol)     //sol,ctrl,t*2)
+SLEEP(t)
+
+COMMON.PLAY(t*2, h_fa)      //fa,ctrl,t*2)
+COMMON.PLAY(t, h_fa)        //fa,ctrl,t)
+COMMON.PLAY(t*1.5, h_fa)    //fa,ctrl,t*1.5)
+COMMON.PLAY(t/2, h_mi)      //mi,ctrl,t/2)
+COMMON.PLAY(t, h_re)        //re,ctrl,t)
+COMMON.PLAY(t*2, h_do)      //do,ctrl,t*2)
+COMMON.PLAY(t, h_mi)        //mi,ctrl,t)
+COMMON.PLAY(t*3, h_do)      //do,ctrl,t*3)
+

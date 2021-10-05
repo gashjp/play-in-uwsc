@@ -1,0 +1,62 @@
+// https://hacchaku.com/gakkiensou/yumemiru/
+
+DIM t = 0.250 * (3/4)
+
+COMMON.PLAY(t*6, h_fa)
+COMMON.PLAY(t, h_mi)
+COMMON.PLAY(t, h_fa)
+COMMON.PLAY(t*4, h_ra)
+COMMON.PLAY(t*4, h_fa)
+
+COMMON.PLAY(t*6, h_mi)
+COMMON.PLAY(t, h_re)
+COMMON.PLAY(t, h_mi)
+COMMON.PLAY(t*4, h_ra)
+COMMON.PLAY(t*4, h_mi)
+
+COMMON.PLAY(t*16, h_re)
+
+COMMON.PLAY(t*8, h_do)
+COMMON.PLAY(t*4, h_do)
+COMMON.PLAY(t*4, h_mi)
+
+COMMON.PLAY(t*6, h_fa)
+COMMON.PLAY(t, h_mi)
+COMMON.PLAY(t, h_fa)
+COMMON.PLAY(t*4, h_ra)
+COMMON.PLAY(t*4, h_fa)
+
+COMMON.PLAY(t*6, h_h_do)
+COMMON.PLAY(t, h_si)
+COMMON.PLAY(t, h_h_do)
+COMMON.PLAY(t*4, h_ra)
+COMMON.PLAY(t*4, h_mi)
+
+COMMON.PLAY(t*16, h_re)
+
+COMMON.PLAY(t*8, h_do)
+COMMON.PLAY(t*8, h_re)
+
+COMMON.PLAY(t*6, re)
+COMMON.PLAY(t, sh_do)
+COMMON.PLAY(t, re)
+COMMON.PLAY(t*8, fa)
+
+COMMON.PLAY(t*6, mi)
+COMMON.PLAY(t, fl_mi)
+COMMON.PLAY(t, mi)
+COMMON.PLAY(t*8, sol)
+
+COMMON.PLAY(t*6, fa)
+COMMON.PLAY(t, fl_mi)
+COMMON.PLAY(t, fa)
+COMMON.PLAY(t*8, sh_sol)
+
+COMMON.PLAY(t*6, sol)
+COMMON.PLAY(t, fa)
+COMMON.PLAY(t, sol)
+COMMON.PLAY(t*4, fl_si)
+COMMON.PLAY(t*4, h_sh_do)
+
+COMMON.PLAY(t*16, h_do)
+

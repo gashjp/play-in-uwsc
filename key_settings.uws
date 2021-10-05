@@ -1,0 +1,51 @@
+// an octav
+// h_ higher
+// l_ lower
+
+// sh_ sharp
+// fl_ flat
+
+CONST l_do = VK_1
+CONST l_re = VK_2
+CONST l_mi = VK_3
+CONST l_fa = VK_4
+CONST l_sol = VK_5
+CONST l_ra = VK_6
+CONST l_si = VK_7
+CONST l_h_do = VK_a
+CONST l_sh_do = VK_8
+CONST l_fl_mi = VK_9
+CONST l_sh_fa = VK_0
+CONST l_sh_sol = VK_OEM_MINUS
+CONST l_fl_si = VK_OEM_6
+
+CONST do = VK_a
+CONST re = VK_s
+CONST mi = VK_d
+CONST fa = VK_f
+CONST sol = VK_g
+CONST ra = VK_h
+CONST si = VK_j
+CONST h_do = VK_k
+CONST sh_do = VK_w
+CONST fl_mi = VK_e
+CONST sh_fa = VK_t
+CONST sh_sol = VK_y
+CONST fl_si = VK_u
+
+CONST h_do = VK_k
+CONST h_re = VK_x
+CONST h_mi = VK_c
+CONST h_fa = VK_v
+CONST h_sol = VK_b
+CONST h_ra = VK_n
+CONST h_si = VK_m
+CONST h_h_do = VK_OEM_2
+CONST h_sh_do = VK_l
+CONST h_fl_mi = VK_p
+CONST h_sh_fa = VK_o
+CONST h_sh_sol = VK_OEM_4
+CONST h_fl_si = VK_OEM_COMMA
+
+CONST shift = VK_SHIFT
+CONST ctrl = VK_CTRL
