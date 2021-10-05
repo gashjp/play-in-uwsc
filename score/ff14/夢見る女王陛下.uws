@@ -1,6 +1,6 @@
 // https://hacchaku.com/gakkiensou/yumemiru/
 
-DIM t = 0.250 * (3/4)
+DIM t = base * (3/4)
 
 COMMON.PLAY(t*6, h_fa)
 COMMON.PLAY(t, h_mi)

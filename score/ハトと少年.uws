@@ -1,6 +1,6 @@
 // https://www.youtube.com/watch?v=wjTZmTrphRs&ab_channel=%E3%82%88%E3%81%86%E3%81%95%E3%81%84
 
-DIM t = 0.250
+DIM t = base
 
 COMMON.PLAY(t, sol)         //sol,nil,t)
 FOR count=1 TO 2

@@ -1,5 +1,5 @@
 
-DIM t = 0.250
+DIM t = base
 
 COMMON.PLAY(t, do)			//do,nil,t)
 COMMON.PLAY(t, re)			//re,nil,t)

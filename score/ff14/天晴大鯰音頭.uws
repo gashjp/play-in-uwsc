@@ -1,0 +1,110 @@
+t = base * 3/5
+
+COMMON.PLAY(t*2, h_re)
+COMMON.PLAY(t, h_do)
+COMMON.PLAY(t*5, h_re)
+COMMON.PLAY(t, h_fa)
+COMMON.PLAY(t*2, h_re)
+COMMON.PLAY(t, h_do)
+
+COMMON.PLAY(t*2, fl_si)
+COMMON.PLAY(t, sol)
+COMMON.PLAY(t*2, fa)
+COMMON.PLAY(t, fa)
+COMMON.PLAY(t*2, sol)
+COMMON.PLAY(t, fl_si)
+COMMON.PLAY(t*8, fl_si)
+
+COMMON.PLAY(t, re)
+COMMON.PLAY(t*2, fa)
+COMMON.PLAY(t, fa)
+COMMON.PLAY(t*3, fa)
+
+COMMON.PLAY(t*2, re)
+COMMON.PLAY(t, fa)
+COMMON.PLAY(t*2, sol)
+COMMON.PLAY(t, fl_si)
+COMMON.PLAY(t*2, sol)
+COMMON.PLAY(t, fa)
+COMMON.PLAY(t*8, sol)
+
+COMMON.PLAY(t, sol)
+COMMON.PLAY(t*2, fl_si)
+COMMON.PLAY(t, fl_si)
+COMMON.PLAY(t*3, fl_si)
+
+COMMON.PLAY(t*2, sol)
+COMMON.PLAY(t, fl_si)
+COMMON.PLAY(t*2, fa)
+COMMON.PLAY(t, fl_si)
+COMMON.PLAY(t*2, h_do)
+COMMON.PLAY(t, h_re)
+COMMON.PLAY(t*3, h_do)
+
+FOR count = 1 TO 2
+COMMON.PLAY(t*2, fl_si)
+COMMON.PLAY(t, h_do)
+COMMON.PLAY(t*8, h_re)
+COMMON.PLAY(t, h_fa)
+
+COMMON.PLAY(t*2, h_re)
+COMMON.PLAY(t, h_do)
+COMMON.PLAY(t*9, h_re)
+
+COMMON.PLAY(t*2, fl_si)
+COMMON.PLAY(t, h_do)
+COMMON.PLAY(t*8, h_re)
+COMMON.PLAY(t, h_sol)
+
+COMMON.PLAY(t*2, h_fa)
+COMMON.PLAY(t, h_do)
+COMMON.PLAY(t*9, h_re)
+
+COMMON.PLAY(t*2, fl_si)
+COMMON.PLAY(t, h_re)
+COMMON.PLAY(t*8, h_do)
+COMMON.PLAY(t, h_do)
+
+COMMON.PLAY(t*2, fl_si)
+COMMON.PLAY(t, sol)
+COMMON.PLAY(t*9, h_do)
+
+COMMON.PLAY(t*2, h_do)
+COMMON.PLAY(t, fl_si)
+COMMON.PLAY(t*8, h_do)
+COMMON.PLAY(t, h_re)
+
+COMMON.PLAY(t*2, h_fa)
+COMMON.PLAY(t, h_re)
+COMMON.PLAY(t*9, h_do)
+NEXT
+
+COMMON.PLAY(t*2, fl_si)
+COMMON.PLAY(t, h_do)
+COMMON.PLAY(t*2, h_re)
+COMMON.PLAY(t, h_re)
+COMMON.PLAY(t*2, h_do)
+COMMON.PLAY(t, fl_si)
+COMMON.PLAY(t*2, sol)
+COMMON.PLAY(t, fa)
+
+COMMON.PLAY(t*2, re)
+COMMON.PLAY(t, fa)
+COMMON.PLAY(t*2, fa)
+COMMON.PLAY(t, re)
+COMMON.PLAY(t*3, fa)
+COMMON.PLAY(t*2, fa)
+COMMON.PLAY(t, re)
+
+COMMON.PLAY(t*5, fa)
+COMMON.PLAY(t, h_re)
+COMMON.PLAY(t*3, h_do)
+COMMON.PLAY(t*2, fl_si)
+COMMON.PLAY(t, sol)
+
+COMMON.PLAY(t*2, fa)
+COMMON.PLAY(t, fa)
+COMMON.PLAY(t*2, sol)
+COMMON.PLAY(t, fl_si)
+COMMON.PLAY(t*6, fl_si)
+

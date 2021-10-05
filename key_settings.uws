@@ -5,6 +5,8 @@
 // sh_ sharp
 // fl_ flat
 
+CONST base = 0.250
+
 CONST l_do = VK_1
 CONST l_re = VK_2
 CONST l_mi = VK_3

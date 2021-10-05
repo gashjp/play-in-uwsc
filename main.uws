@@ -9,8 +9,8 @@ CONST LOOP = 1
 CONST SCORE = GET_CUR_DIR + "\score"
 
 FOR count=1 TO LOOP
-CALL SCORE + "\ハトと少年.uws"
-SLEEP(2)
-// CALL SCORE + "\ff14\夢見る女王陛下.uws"
+// CALL SCORE + "\ハトと少年.uws"
 // SLEEP(2)
+CALL SCORE + "\ff14\天晴大鯰音頭.uws"
+SLEEP(2)
 NEXT

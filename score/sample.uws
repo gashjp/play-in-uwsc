@@ -1,4 +1,4 @@
-DIM t = 0.250
+DIM t = base
 
 COMMON.PLAY(t, l_do)
 COMMON.PLAY(t, l_re)
